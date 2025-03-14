@@ -1,39 +1,58 @@
-📌 Descripción
+# 📊 Análisis de Datos Históricos - IBM Data Analyst
 
-Este repositorio contiene un análisis de datos históricos como parte del curso de IBM Data Analyst. Se utiliza Python y Jupyter Notebook para la exploración, limpieza y visualización de datos.
+Este repositorio contiene un análisis de datos históricos como parte del curso **IBM Data Analyst**. El proyecto utiliza **Python** y **Jupyter Notebook** para la exploración, limpieza y visualización de datos históricos de diferentes fuentes.
 
-📂 Contenido del repositorio
+## 📌 Descripción
 
-analisis-historico.ipynb → Notebook con el análisis de datos.
+El objetivo de este proyecto es realizar un análisis completo de datos históricos, incluyendo la exploración, limpieza, visualización y análisis de tendencias, utilizando herramientas poderosas como **Pandas**, **Matplotlib**, **Seaborn**, y **Plotly**.
 
-README.md → Información sobre el proyecto.
+## 📂 Contenido del Repositorio
 
-📊 Tecnologías utilizadas
+- **analisis-historico.ipynb** → Notebook con el análisis de datos históricos.
+- **README.md** → Información sobre el proyecto y cómo ejecutarlo.
 
-Python (Pandas, Matplotlib, Seaborn, NumPy, yFinance, BeautifulSoup, Requests, Plotly)
+## 🛠️ Tecnologías Utilizadas
 
-Jupyter Notebook
+Este proyecto utiliza las siguientes tecnologías y bibliotecas:
 
-IBM Watson Studio
+- **Python**:
+  - **Pandas**: Manipulación y análisis de datos.
+  - **Matplotlib** y **Seaborn**: Visualización de datos.
+  - **NumPy**: Cálculos numéricos.
+  - **yFinance**: Obtención de datos históricos financieros.
+  - **BeautifulSoup**: Web scraping para obtener datos de la web.
+  - **Requests**: Manejo de solicitudes HTTP.
+  - **Plotly**: Visualización interactiva de datos.
+  
+- **Jupyter Notebook**: Entorno interactivo para la ejecución del análisis.
 
-🚀 Cómo ejecutar el proyecto
+- **IBM Watson Studio**: Plataforma de desarrollo en la nube para el análisis de datos.
 
-Clonar este repositorio:
+## 🚀 Cómo Ejecutar el Proyecto
 
+### 1. Clonar el repositorio:
+
+Clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+```bash
 git clone https://github.com/MiguelAEG/ibm-analisis-datos-historicos.git
-
-Instalar las dependencias:
-
+```
+### 2. Instalar las dependencias
+```bash
 pip install yfinance bs4 pandas requests plotly
-
-Abrir el notebook en Jupyter:
-
+```
+### 3. Abrir el notebook en Jupyter
+```bash
 jupyter notebook
+```
+### 4. Ejecutar el analisis
 
-📢 Contribuciones
+## 📢 Contribuciones
 
-Si deseas contribuir, haz un fork y envía un pull request.
+Si deseas contribuir al proyecto, puedes hacer un fork del repositorio y enviar un pull request con tus mejoras o correcciones. ¡Toda ayuda es bienvenida! 🎉
 
-📝 Licencia
+## 📢 Licencia
 
-Este proyecto se distribuye bajo la licencia MIT.
+Este proyecto está distribuido bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+
+
